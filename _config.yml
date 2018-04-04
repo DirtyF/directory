@@ -42,3 +42,8 @@ exclude:
   - script
   - spec
   - vendor
+
+algolia:
+  application_id: H579RC1MQI
+  index_name: dev_JEKYLL_DIRECTORY
+  search_only_api_key: 8f83c2472e2f091e4e4665530f3d28da
