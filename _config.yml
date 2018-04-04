@@ -1,8 +1,7 @@
 title: "Jekyll directory"
 description: "Community-built themes and plugins to level up your Jekyll experience"
 repository: https://github.com/jekyll/directory
-url: https://jekyll.github.io
-baseurl: /directory
+url: https://jekyll-directory.netlify.com
 lang: "en_US"
 
 plugins:
@@ -47,3 +46,10 @@ algolia:
   application_id: H579RC1MQI
   index_name: dev_JEKYLL_DIRECTORY
   search_only_api_key: 8f83c2472e2f091e4e4665530f3d28da
+  settings:
+    searchableAttributes:
+      - title
+      - headings
+      - unordered(content)
+      - collection,categories,tags
+      - unordered(author)
