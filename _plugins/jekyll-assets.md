@@ -5,4 +5,8 @@ description: >
 author: envygeeks
 git: git@github.com:jekyll/jekyll-assets.git
 repository: https://github.com/jekyll/jekyll-assets
+tags:
+  - sass
+  - css
+  - js
 ---

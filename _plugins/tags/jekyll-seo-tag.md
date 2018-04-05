@@ -7,4 +7,5 @@ author: benbalter
 compatible: v3
 git: git@github.com:jekyll/jekyll-seo-tag.git
 repository: https://github.com/jekyll/jekyll-seo-tag
+featured: true
 ---

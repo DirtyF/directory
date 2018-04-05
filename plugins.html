@@ -1,20 +1,29 @@
 ---
 layout: page
-title: Plugins Index
+title: Jekyll plugins
 permalink: /plugins/
 ---
 
-<ul>
-{% for plugin in site.plugins %}
-  <li>
-    <div>
-      <h4><a href="{{ plugin.url | prepend: site.baseurl }}" title="{{ plugin.title }}">{{ plugin.title }}</a></h4>
+<div class="search-container">
+  <div id="search-searchbar"></div>
+  <div id="stats-container"></div>
+  <div class="plugin-list" id="search-hits">
+    <ul>
+    {% for plugin in site.plugins %}
+      <li>
+        <div>
+          <h4><a href="{{ plugin.url | prepend: site.baseurl }}" title="{{ plugin.title }}">{{ plugin.title }}</a></h4>
 
-      {{ plugin.description | markdownify }}
+          {{ plugin.description | markdownify }}
 
-      {% if site.data.github_pages.plugins contains plugin.title %}<strong>Compatible with GitHub Pages</strong> :octocat:{% endif %}
+          {% if site.data.github_pages.plugins contains plugin.title %}<strong>Compatible with GitHub Pages</strong> :octocat:{% endif %}
 
-    </div>
-  </li>
-{% endfor %}
-</ul>
+        </div>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div id="pagination-container"></div>
+  {% include algolia.html %}
+</div>

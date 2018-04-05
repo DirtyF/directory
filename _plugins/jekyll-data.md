@@ -5,5 +5,6 @@ description: >
 author: ashmaroli
 git: git@github.com:ashmaroli/jekyll-data.git
 repository: https://github.com/ashmaroli/jekyll-data
+featured: true
 compatible: v3
 ---

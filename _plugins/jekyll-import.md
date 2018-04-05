@@ -6,4 +6,7 @@ description: >
 author: parkr
 git: git@github.com:jekyll/jekyll-import.git
 repository: https://github.com/jekyll/jekyll-import
+featured: true
+tags:
+  - import
 ---

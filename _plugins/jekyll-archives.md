@@ -5,4 +5,7 @@ description: >
 author: alfredxing
 git: git@github.com:jekyll/jekyll-archives.git
 repository: https://github.com/jekyll/jekyll-archives
+featured: true
+tags:
+  - core
 ---

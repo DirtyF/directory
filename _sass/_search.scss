@@ -1,0 +1,39 @@
+.search-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.ais-hits-link-github a {
+  color: #fff;
+  display:block;
+  margin: 0.2em auto 0.5em;
+  float: right;
+  opacity:0.5;
+  width:1em;
+  height:1em;
+}
+
+.ais-hits-link-github a:hover {
+  opacity: 1.0;
+}
+
+.ais-hits-link-github svg {
+    fill: currentColor;
+}
+
+.ais-hits-author {
+  margin: .25em 0;
+  a {
+    color: #ddd;
+
+    &:hover {
+      color: #ddd;
+      text-decoration: underline;
+    }
+  }
+}
+
+.ais-hits-author-avatar {
+  float: left;
+  border-radius: 10%;
+  margin: .25rem .25rem 0 0;
+}
