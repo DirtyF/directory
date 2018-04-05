@@ -2,8 +2,14 @@
 layout: page
 ---
 
+{% if page.type == "rubygems" %}
+  <a href="https://badge.fury.io/rb/{{ page.title }}"><img src="https://badge.fury.io/rb/{{ page.title }}.svg" alt="Gem Version" height="20"></a>
+  <a href="https://badge.fury.io/rb/{{ page.title }}"><img src="https://img.shields.io/gem/dt/{{ page.title }}.svg" alt="Gem downloads" height="20"></a>
+  <a class="github-button" href="{{ page.repository }}" data-icon="octicon-star" date-size="large" data-show-count="true" aria-label="Star {{ page.title }} on GitHub">Star</a>
+{% endif %}
+
 <p>
-  By <a href="https://github.com/{{ page.author }}" title="{{ page.author }} on GitHub">{{ page.author }}</a>
+  <a class="post-author" href="https://github.com/{{ page.author }}" title="{{ page.author }} on GitHub"><img class="avatar" src="https://github.com/{{ page.author }}.png" width="24px" alt="">{{ page.author }}</a>
 </p>
 
   {{ page.description | markdownify }}

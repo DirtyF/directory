@@ -609,9 +609,10 @@ article h2:first-child {
 .avatar {
   width: 24px;
   height: 24px;
-  border-radius: 3px;
+  border-radius: 10%;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
+  margin: .25rem .25rem 0 0;
 }
 
 .post-meta {
