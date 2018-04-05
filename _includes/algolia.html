@@ -19,7 +19,7 @@ search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
     placeholder: 'Search plugins (i.e. feed, seo, sitemap)',
-    poweredBy: true // This is required if you're on the free Community plan
+    poweredBy: false
   })
 );
 
@@ -84,7 +84,12 @@ search.start();
 .ais-search-box--powered-by {
   font-size: .85rem;
 }
-.ais-hits {
+
+.ais-search-box--powered-by-link {
+  width: 130px;
+  height: 21px;
+  margin: .25rem 0;
+  background-image: url({{ "/assets/svg/search-by-algolia-white.svg" | relative_url }});
 }
 
 .ais-hits-author,
