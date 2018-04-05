@@ -7,5 +7,9 @@ author: benbalter
 compatible: v3
 git: git@github.com:jekyll/jekyll-seo-tag.git
 repository: https://github.com/jekyll/jekyll-seo-tag
+stars: 658
+rubygems:
+  url: https://rubygems.org/gems/jekyll-seo-tag
+  downloads: 855542
 featured: true
 ---

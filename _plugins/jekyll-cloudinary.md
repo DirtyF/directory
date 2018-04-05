@@ -5,6 +5,10 @@ description: >
 author: nhoizey
 git: git@github.com:nhoizey/jekyll-cloudinary.git
 repository: https://github.com/nhoizey/jekyll-cloudinary/
+stars: 41
+rubygems:
+  url: https://rubygems.org/gems/jekyll-cloudinary
+  downloads: 27065
 featured: true
 tags:
   - images

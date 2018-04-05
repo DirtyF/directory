@@ -6,6 +6,10 @@ description: >
 author: parkr
 git: git@github.com:jekyll/jekyll-import.git
 repository: https://github.com/jekyll/jekyll-import
+stars: 285
+rubygems:
+  url: https://rubygems.org/gems/jekyll-import
+  downloads: 74728
 featured: true
 tags:
   - import
