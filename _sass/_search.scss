@@ -2,20 +2,23 @@
   width: 90%;
   margin: 0 auto;
 }
-.ais-hits-link-github a {
+.ais-hits-link-github a,
+.ais-hits-link-rubygems a {
   color: #fff;
   display:block;
-  margin: 0.2em auto 0.5em;
+  margin: 0.2em 0.15em 0.5em;
   float: right;
   opacity:0.5;
   width:1em;
   height:1em;
 }
 
+.ais-hits-link-rubygems a:hover,
 .ais-hits-link-github a:hover {
   opacity: 1.0;
 }
 
+.ais-hits-link-rubygems svg,
 .ais-hits-link-github svg {
     fill: currentColor;
 }
